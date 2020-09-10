@@ -1,0 +1,64 @@
+{
+	"posts": [
+		{
+			"id": 1,
+			"title": "Записать title во все div с определённым классом",
+			"body": "Стоит задача получить title страницы и записать всё в div'ы с определённым классом. Я написал вот такой код: var pageTitle = document.title; // получаем title document.querySelector('.this_page_title')",
+			"author": "Andry",
+			"likes": 13,
+			"comments": 18,
+			"createdAt": "2019-01-16T11:39:51",
+			"tags": ["javascript", "sint", "ex", "do", "est", "fugiat", "ex"]
+		},
+		{
+			"id": 2,
+			"title": "Как получить ref активной NavLink",
+			"body": "В навигации есть указатель, который должен позиционироваться относительно активной ссылки. Как правильно получить реф этой ссылки для расчета позиции указателя ? const Aside = ({ newMessages })",
+			"author": "Nikita",
+			"likes": 3,
+			"comments": 2,
+			"createdAt": "2015-01-25T06:19:29",
+			"tags": ["javascript", "incididunt", "in", "in", "id", "dolore", "velit"]
+		},
+		{
+			"id": 3,
+			"title": "Записать title во все div с определённым классом",
+			"body": "Стоит задача получить title страницы и записать всё в div'ы с определённым классом. Я написал вот такой код: var pageTitle = document.title; // получаем title document.querySelector('.this_page_title')",
+			"author": "Andry",
+			"likes": 13,
+			"comments": 18,
+			"createdAt": "2019-01-16T11:39:51",
+			"tags": ["javascript", "sint", "ex", "do", "est", "fugiat", "ex"]
+		},
+		{
+			"id": 3,
+			"title": "Как получить ref активной NavLink",
+			"body": "В навигации есть указатель, который должен позиционироваться относительно активной ссылки. Как правильно получить реф этой ссылки для расчета позиции указателя ? const Aside = ({ newMessages })",
+			"author": "Nikita",
+			"likes": 3,
+			"comments": 2,
+			"createdAt": "2015-01-25T06:19:29",
+			"tags": ["javascript", "incididunt", "in", "in", "id", "dolore", "velit"]
+		},
+		{
+			"id": 4,
+			"title": "Записать title во все div с определённым классом",
+			"body": "Стоит задача получить title страницы и записать всё в div'ы с определённым классом. Я написал вот такой код: var pageTitle = document.title; // получаем title document.querySelector('.this_page_title')",
+			"author": "Andry",
+			"likes": 13,
+			"comments": 18,
+			"createdAt": "2019-01-16T11:39:51",
+			"tags": ["javascript", "sint", "ex", "do", "est", "fugiat", "ex"]
+		},
+		{
+			"id": 5,
+			"title": "Как получить ref активной NavLink",
+			"body": "В навигации есть указатель, который должен позиционироваться относительно активной ссылки. Как правильно получить реф этой ссылки для расчета позиции указателя ? const Aside = ({ newMessages })",
+			"author": "Nikita",
+			"likes": 3,
+			"comments": 2,
+			"createdAt": "2015-01-25T06:19:29",
+			"tags": ["javascript", "incididunt", "in", "in", "id", "dolore", "velit"]
+		}
+	]
+}

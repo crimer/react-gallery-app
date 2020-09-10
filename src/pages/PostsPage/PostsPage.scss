@@ -1,0 +1,19 @@
+.category-header {
+  margin-bottom: 30px;
+  &-text,
+  &-title,
+  &-posts {
+    margin: 0;
+    padding: 0;
+  }
+  &-text{
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+    color: #a2b0bf;
+  }
+  &-title {
+    font-size: 60px;
+  }
+}
