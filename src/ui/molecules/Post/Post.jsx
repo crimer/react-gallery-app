@@ -14,7 +14,7 @@ import {
 } from './styles'
 import { formatDate } from '../../global/common/utils'
 
-const Post = ({ author, title, body, comments, likes, tags, createdAt }) => {
+export const Post = ({ author, title, body, comments, likes, tags, createdAt }) => {
 	return (
 		<PostStyle>
 			<PostContainer>
@@ -68,4 +68,3 @@ const Post = ({ author, title, body, comments, likes, tags, createdAt }) => {
 	)
 }
 
-export default Post

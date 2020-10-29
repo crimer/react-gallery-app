@@ -1,11 +1,9 @@
 import styled from 'styled-components'
 
 export const Head = styled.div`
-	grid-area: header;
+	background-color: #fff;
 	display: block;
-	nav {
-		background-color: #fff;
-	}
+	z-index: 999;
 `
 
 export const Shadow = styled.div`
@@ -22,8 +20,7 @@ export const Content = styled.div`
 	align-items: center;
 	position: relative;
 	width: 100%;
-	height: 60px;
-	padding: 0 20px;
+	padding: 20px 80px;
 	@media (min-width: 1380px) {
 		.navbar-container {
 			max-width: 1380px;
@@ -64,25 +61,9 @@ export const Nav = styled.div`
 		height: 100%;
 		li {
 			height: 100%;
-			a {
-				display: flex;
-				height: 100%;
-				align-items: center;
-				padding-left: 0.5rem;
-				padding-right: 0.5rem;
-				text-decoration: none;
-				color: black;
-				font-size: 0.938rem;
-				font-weight: 500;
-				text-transform: none;
-				transition: 0.2s color ease;
-				&:hover {
-					color: #4842b7;
-				}
-				&.selectedLink {
-					color: #4842b7;
-				}
-			}
+			/* a {
+
+			} */
 		}
 		li:not(:last-child) {
 			margin-right: 20px;

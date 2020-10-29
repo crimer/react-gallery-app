@@ -1,6 +1,6 @@
 import React from 'react'
-import Post from './Post'
-import posts from '../../data/posts.json'
+import {Post} from './Post.jsx'
+import posts from '../../global/data/posts.json'
 import { Posts } from './styles'
 
 const PostsList = () => {

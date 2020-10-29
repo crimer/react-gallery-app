@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Foot = styled.div`
-	grid-area: footer;
 	background-color: #fff;
 	padding: 40px;
 	> p {

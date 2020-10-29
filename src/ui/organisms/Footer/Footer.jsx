@@ -1,7 +1,7 @@
 import React from 'react'
 import { Copyright, Foot } from './styles'
 
-const Footer = () => {
+export const Footer = () => {
 	return (
 		<Foot>
 			<p>By the Nikita Crimer with ❤</p>
@@ -20,4 +20,3 @@ const Footer = () => {
 	)
 }
 
-export default Footer
